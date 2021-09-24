@@ -73,4 +73,6 @@ Note : desired browser i.e. chrome,firefox,etc or desired url i.e. bing, google 
 
 10. nightwatch.js -> test runner
 11. package.json -> running script and dev/global dependency      packages
+12. allure-report
+    - index.html -> It has sample report (actually not needed to checkin this but just to show in demo it added here)
 

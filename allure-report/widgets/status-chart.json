@@ -1,0 +1,17 @@
+[ {
+  "uid" : "a22de189b27e139d",
+  "name" : "b. Validate 1st search result shown on search engine",
+  "time" : {
+    "duration" : 4295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ce065bcbddf8dc7",
+  "name" : "a. Validate search engine home page",
+  "time" : {
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

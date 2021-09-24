@@ -1,0 +1,36 @@
+{
+  "testCases.smokeTest.A-SearchResultTest:testCases.smokeTest.A-SearchResultTest#b. Validate 1st search result shown on search engine" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a22de189b27e139d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4295
+      }
+    } ]
+  },
+  "testCases.smokeTest.A-SearchResultTest:testCases.smokeTest.A-SearchResultTest#a. Validate search engine home page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ce065bcbddf8dc7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 82
+      }
+    } ]
+  }
+}

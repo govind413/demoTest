@@ -1,0 +1,50 @@
+{
+  "uid" : "a22de189b27e139d",
+  "name" : "b. Validate 1st search result shown on search engine",
+  "historyId" : "testCases.smokeTest.A-SearchResultTest:testCases.smokeTest.A-SearchResultTest#b. Validate 1st search result shown on search engine",
+  "time" : {
+    "duration" : 4295
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "testCases.smokeTest.A-SearchResultTest"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "testCases.smokeTest.A-SearchResultTest"
+  }, {
+    "name" : "package",
+    "value" : "testCases.smokeTest.A-SearchResultTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a22de189b27e139d.json",
+  "parameterValues" : [ ]
+}

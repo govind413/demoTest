@@ -1,0 +1,31 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "",
+    "children" : [ {
+      "name" : "b. Validate 1st search result shown on search engine",
+      "uid" : "a22de189b27e139d",
+      "parentUid" : "45938a2650667c0bab99ee90a87b88f8",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "a. Validate search engine home page",
+      "uid" : "1ce065bcbddf8dc7",
+      "parentUid" : "45938a2650667c0bab99ee90a87b88f8",
+      "status" : "passed",
+      "time" : {
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "45938a2650667c0bab99ee90a87b88f8"
+  } ]
+}

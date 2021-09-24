@@ -1,0 +1,31 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testCases.smokeTest.A-SearchResultTest",
+    "children" : [ {
+      "name" : "b. Validate 1st search result shown on search engine",
+      "uid" : "a22de189b27e139d",
+      "parentUid" : "e4ab95bf68e796cd213dee781d59fc9f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "a. Validate search engine home page",
+      "uid" : "1ce065bcbddf8dc7",
+      "parentUid" : "e4ab95bf68e796cd213dee781d59fc9f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testCases.smokeTest.A-SearchResultTest"
+  } ]
+}

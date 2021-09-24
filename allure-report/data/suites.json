@@ -1,0 +1,31 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testCases.smokeTest.A-SearchResultTest",
+    "children" : [ {
+      "name" : "b. Validate 1st search result shown on search engine",
+      "uid" : "a22de189b27e139d",
+      "parentUid" : "54a3a79d88afe6f72650822e19531d3d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "a. Validate search engine home page",
+      "uid" : "1ce065bcbddf8dc7",
+      "parentUid" : "54a3a79d88afe6f72650822e19531d3d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "54a3a79d88afe6f72650822e19531d3d"
+  } ]
+}

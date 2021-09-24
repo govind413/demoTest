@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","","","4295","","testCases.smokeTest.A-SearchResultTest","","testCases.smokeTest.A-SearchResultTest","","b. Validate 1st search result shown on search engine",""
+"passed","","","82","","testCases.smokeTest.A-SearchResultTest","","testCases.smokeTest.A-SearchResultTest","","a. Validate search engine home page",""

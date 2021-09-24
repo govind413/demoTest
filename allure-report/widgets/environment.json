@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "Mac OS X" ],
+  "name" : "PLATFORM"
+}, {
+  "values" : [ "94.0.4606.61" ],
+  "name" : "BROWSER_VERSION"
+}, {
+  "values" : [ "chrome" ],
+  "name" : "BROWSER_NAME"
+}, {
+  "values" : [ "https://www.google.com/" ],
+  "name" : "TEST_EXECUTION_URL"
+} ]

@@ -1,0 +1,50 @@
+{
+  "uid" : "1ce065bcbddf8dc7",
+  "name" : "a. Validate search engine home page",
+  "historyId" : "testCases.smokeTest.A-SearchResultTest:testCases.smokeTest.A-SearchResultTest#a. Validate search engine home page",
+  "time" : {
+    "duration" : 82
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "testCases.smokeTest.A-SearchResultTest"
+  }, {
+    "name" : "host",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "testCases.smokeTest.A-SearchResultTest"
+  }, {
+    "name" : "package",
+    "value" : "testCases.smokeTest.A-SearchResultTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ce065bcbddf8dc7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ui_tests_demo",
+  "version": "0.0.1",
+  "description": "demo test for given task",
+  "private": true,
+  "devDependencies": {
+    "allure-commandline": "^2.13.0",
+    "nightwatch": "^1.7.6",
+    "resemblejs": "^2.10.1"
+  },
+  "scripts": {
+    "getLatestBrowserDriver": "npm install chromedriver geckodriver --chromedriver-force-download",
+    "demoTests": "Node nightwatch.js -c config/nightwatch.conf.js -g testCases/smokeTest/ -e ",
+    "sanityTests": "Node nightwatch.js -c config/nightwatch.conf.js -g testCases/sanityTest/ -e ",
+    "regressionTests": "Node nightwatch.js -c config/nightwatch.conf.js -g testCases/regressionTest/ -e "
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^93.0.1",
+    "geckodriver": "^1.22.3",
+    "mocha": "^7.0.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "nightwatch-allure": "^1.2.0",
+    "nightwatch-allure-adapter": "^1.2.4",
+    "nightwatch-html-reporter": "^2.0.6"
+  }
+}

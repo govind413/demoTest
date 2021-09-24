@@ -1,0 +1,1 @@
+// locator and function of Yahoo home page will be added here just like we did for google and bing

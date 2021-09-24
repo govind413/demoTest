@@ -1,0 +1,96 @@
+{
+  "src_folders" : ["./"],
+  "output_folder" : "./testReports/",
+  "custom_commands_path" : "",
+  "page_objects_path" : "./testClient/pages/",
+  "custom_assertions_path" : "",
+  "globals_path" : "../config/globals.js",
+  "live_output" : true,
+  "parallel_process_delay" : 2000,
+  "disable_colors": false,
+  "test_workers": {
+    "enabled": "",
+    "workers": 4
+  },
+  "abortOnAssertionFailure" : false,
+  "waitForConditionTimeout":10000,
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "./lib/selenium-server-standalone-4.0.0-alpha-2.jar",
+    "log_path" : "./testCases/logs",
+    "host" : "localhost",
+    "port" : 17556,
+    "cli_args" : {
+      "webdriver.gecko.driver":"",
+      "webdriver.chrome.driver" : "",
+      "webdriver.edge.driver" : "",
+      "webdriver.safari.driver" : "",
+      "webdriver.log.file" : "./testCaseslogs/driver-logfile.log"
+    },
+    "log_screenshot_data" : true,
+    "webdriver": {
+      "default_path_prefix": "/wd/hub"
+    }
+  },
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "",
+      "silent" : true,
+      "skip_testcases_on_fail": false,
+      "disable_colors": false,
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "./testReports/screenshots"
+      },
+      "request_timeout_options": {
+        "timeout": 45000,
+        "retry_attempts": 5
+      }
+    },
+    "chrome":{
+      "desiredCapabilities" : {
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "skip_testcases_on_fail": false,
+        "browserName" : "chrome",
+            "chromeOptions" : {          
+              "args": ["test-type","--disable-infobars","no-sandbox"],
+              "w3c": false
+            }
+      }
+    },
+    "firefox":{
+      "desiredCapabilities": {
+        "javascriptEnabled": true,
+        "browserName": "firefox",
+        "firefoxOption" : {
+          "args": []
+         }
+      }
+    },
+    "edge" : {
+        "silent": true,
+        "output": true,
+        "desiredCapabilities": {
+            "browserName": "MicrosoftEdge",
+            "avoidProxy": true,
+            "acceptSslCerts": true,
+            "edgeOptions" : 
+              { "w3c": false }
+        }
+    },
+    "safari" : {
+      "silent": true,
+      "output": true,
+      "desiredCapabilities": {
+          "browserName": "safari",
+          "avoidProxy": true,
+          "acceptSslCerts": true,
+          "javascriptEnabled": true
+      }
+  }
+  }
+}
